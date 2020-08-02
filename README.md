@@ -30,6 +30,10 @@ Prerequisites:
       3. Terraform Plugin
       4. AnsiColor
       
+ 4. AWS account.
+ 
+ 5. S3 bucket with name - gar-hw-aws2 
+      
  Resources used:
  =============
  
