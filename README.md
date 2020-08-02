@@ -1,7 +1,7 @@
 # terraform_lambda_api_app
 
 Deploying a Serverless application on AWS using Terraform and Jenkins and exposing via API gateway endpoint.
-============================================================================================================
+                               
 
 Prerequisites:
 =============
