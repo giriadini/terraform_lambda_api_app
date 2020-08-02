@@ -43,7 +43,14 @@ Prerequisites:
     
 Application:
 ===========
+ This application contains below :
 
-This application execution is build on jenkins pipeline and executes two stages.
- Stage 1 : 
+      1. index.js is the sample helloworld program.
+      2. compression.sh is the script to zip the file.
+      3. Jenkinsfile contains two stages
+            1. Stage push_to_S3:
+                  1. In this stage index.js script is bundled using compression.sh and zip file is created and pushed to s3 bucket.
+
+            2. Stage invoke_terraform_pipeline:
+                  1. In this stage terraform pipeline is triggered.
         
