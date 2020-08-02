@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage ('Push_to_S3') {
+        stage ('push_to_S3') {
             steps {
                 withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'awsCredentials', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
                 sh '''
@@ -11,7 +11,7 @@ pipeline {
                 }
             }
         }
-        stage ('Invoke_terraform_pipeline') {
+        stage ('invoke_terraform_pipeline') {
             steps {
                     build job: 'terraform-pipeline'
                  }
