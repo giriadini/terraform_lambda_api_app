@@ -13,7 +13,7 @@ Prerequisites:
 
       2. unzip awscli-bundle.zip
 
-      3. sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+      3. sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws..
 
 
 2.  Install terrform on linux
