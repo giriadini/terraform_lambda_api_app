@@ -33,6 +33,8 @@ Prerequisites:
  4. AWS account.
  
  5. S3 bucket with name - gar-hw-aws2 
+ 
+ teting reade me 
       
  Resources used:
  =============
